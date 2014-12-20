@@ -6,8 +6,8 @@ class DatabaseManager extends mysqli {
 
 	private static $instance = null;
 // db connection config vars
-	private $dbUser = "root";
-	private $dbPass = "Temp1234";
+	private $dbUser = "f14g10";
+	private $dbPass = "Group10";
 	private $dbName = "student_f14g10";
 	private $dbHost = "127.0.0.1";
 
