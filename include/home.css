@@ -1,0 +1,245 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 28, 2014, 6:12:35 PM
+    Author     : frank
+*/
+p {
+    color: black;
+}
+
+a {
+    color: #000;
+}
+
+a :active {
+    color: #383435;
+}
+
+
+a :hover {
+    color: #383435;
+}
+
+#address-form {
+    margin-left: 0px
+}
+
+#main-search {
+    padding-top: 170px;
+}
+
+#features {
+    padding-top: 28%;
+    padding-right:100px;
+}
+
+.btn {
+    width: 60px;
+
+}
+
+.btn-default {
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+}
+
+body {
+    /*css for full size background image*/
+    background: url('../images/583242_52134371.jpg') no-repeat center center fixed;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    height: 600px;
+
+    text-shadow: 0 1px 3px rgba(0,0,0,.5);
+}
+
+
+.img-thumbnail {
+    width: 150px;
+}
+
+
+
+
+/*Popover CSS */
+
+.lib-panel {
+    margin-bottom: 20Px;
+
+
+
+}
+.lib-panel img {
+    width: 100%;
+    background-color: transparent;
+}
+
+.lib-panel .row,
+.lib-panel .col-md-6 {
+    padding: 0;
+    background: #eeeeee;
+    background-color: #eeeeee;
+}
+
+
+.lib-panel .lib-row {
+    padding: 0 20px 0 20px;
+}
+
+.lib-panel .lib-row.lib-header {
+    background-color: #eeeeee;
+    font-size: 20px;
+    padding: 10px 20px 0 20px;
+}
+
+.lib-panel .lib-row.lib-header .lib-header-seperator {
+    height: 2px;
+    width: 26px;
+    background-color: #eeeeee;
+    margin: 7px 0 7px 0;
+}
+
+.lib-panel .lib-row.lib-desc {
+    position: relative;
+    height: 100%;
+    display: block;
+    font-size: 13px;
+}
+.lib-panel .lib-row.lib-desc a{
+    position: absolute;
+    width: 100%;
+    bottom: 10px;
+    left: 20px;
+}
+
+.row-margin-bottom {
+    margin-bottom: 20px;
+}
+
+.box-shadow {
+    -webkit-box-shadow: 0 0 10px 0 rgba(0,0,0,.10);
+    box-shadow: 0 0 10px 0 rgba(0,0,0,.10);
+
+    padding: 10px;
+    background: #eeeeee;
+    border: 5px solid #BABABA;
+
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+.no-padding {
+    padding: 0;
+}
+
+.features-link {
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+}
+
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 3px;
+    padding-left: 3px;
+}
+
+#sell-house
+{
+    position: relative;
+    min-height: 1px;
+    padding-right: 3px;
+    padding-left: 3px;
+    margin-top:8px;
+
+}
+
+#sell-house-button {
+    width:180px;
+}
+
+button#search-button {
+    width: 75px;
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+}
+
+#buy-house
+{
+    position: relative;
+    min-height: 1px;
+    padding-right: 3px;
+    padding-left: 3px;
+    margin-top:8px;
+
+}
+
+#buy-house-button {
+    width:180px;
+}
+
+div .prompt {
+    width: 90px;
+}
+
+@media (max-width: 500px) {
+
+    #features {
+        padding-top: 0px;
+        padding-right: 100px;
+        padding-left: 20px;
+        width: 450px;
+    }
+
+    #sell-house
+    {
+        position: relative;
+        min-height: 1px;
+        padding-right: 3px;
+        padding-left: 3px;
+        margin-top: 8px;
+        left: 130px;
+        top: -65px;
+
+    }
+
+    #sell-house-button {
+        width:180px;
+    }
+
+    #main-search {
+        padding-top: 100px;
+    }
+
+    .form-control {
+        display: block;
+        width: 95%;
+        height: 34px;
+        padding: 6px 12px;
+        font-size: 14px;
+        line-height: 1.42857143;
+        color: #555;
+        background-color: #fff;
+        background-image: none;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+        box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+        -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+        -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+        transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    }
+}

@@ -1,0 +1,37 @@
+body{padding-top:30px;}
+
+.glyphicon {  margin-bottom: 10px;margin-right: 10px;}
+
+small {
+    display: block;
+    line-height: 1.428571429;
+    color: #999;
+}
+
+#sell-house
+{
+    position: relative;
+    min-height: 1px;
+    padding-right: 3px;
+    padding-left: 3px;
+    margin-top:8px;
+
+}
+
+#sell-house-button {
+    width:180px;
+}
+
+#buy-house
+{
+    position: relative;
+    min-height: 1px;
+    padding-right: 3px;
+    padding-left: 3px;
+    margin-top:8px;
+
+}
+
+#buy-house-button {
+    width:180px;
+}

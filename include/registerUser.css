@@ -1,0 +1,72 @@
+
+#jumbo-top {
+    margin-top: 50px
+}
+
+/*
+ * Base structure
+ */
+
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+    padding-top: 50px;
+}
+
+/*
+ * Global add-ons
+ */
+
+.sub-header {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+/*
+ * Main content
+ */
+
+.main {
+
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 50px;
+    left: 1%;
+}
+
+.main .page-header {
+    margin-top: 0;
+}
+
+#content {
+    top:100px;
+}
+
+#checkbox-label {
+
+    float: left;
+    font-size: 13px;
+}
+
+#terms_checkbox {
+    vertical-align: middle;
+    position: relative;
+    bottom: 1px;
+    display: inline;
+    width: 25px;
+    height: 25px;
+}
+
+
+#sell-house
+{
+    position: relative;
+    min-height: 1px;
+    padding-right: 3px;
+    padding-left: 3px;
+    margin-top:8px;
+
+}
+
+#sell-house-button {
+    width:180px;
+}
